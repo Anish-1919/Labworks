@@ -6,8 +6,12 @@ app = Flask(__name__)
 app.secret_key=b'\x95O\xa2\xca\x07)\x1a\x13HiEH\xff~\x9e\x1b'
 
 #Database
-client = pymongo.MongoClient('localhost', 27017)
+# client = pymongo.MongoClient('localhost', 27017)
+# db = client.mydb
+
+client = pymongo.MongoClient("mongodb+srv://Anish:<password>@cluster0.cew55.mongodb.net/mydb?retryWrites=true&w=majority")
 db = client.mydb
+
 
 
 # Decorators
