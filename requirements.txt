@@ -25,6 +25,7 @@ parso==0.8.3
 pickleshare==0.7.5
 prompt-toolkit==3.0.29
 psutil==5.9.0
+pymongo==4.1.1
 tornado==6.1
 traitlets==5.1.1
 wcwidth==0.2.5
