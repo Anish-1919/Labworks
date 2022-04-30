@@ -12,8 +12,6 @@ app.secret_key=b'\x95O\xa2\xca\x07)\x1a\x13HiEH\xff~\x9e\x1b'
 client = pymongo.MongoClient("mongodb+srv://Anish:<password>@cluster0.cew55.mongodb.net/mydb?retryWrites=true&w=majority")
 db = client.mydb
 
-
-
 # Decorators
 def login_required(f):
   @wraps(f)
