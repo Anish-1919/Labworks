@@ -25,10 +25,6 @@ parso==0.8.3
 pickleshare==0.7.5
 prompt-toolkit==3.0.29
 psutil==5.9.0
-pywin32==303
-pyzmq==22.3.0
-six==1.16.0
-stack-data==0.2.0
 tornado==6.1
 traitlets==5.1.1
 wcwidth==0.2.5
