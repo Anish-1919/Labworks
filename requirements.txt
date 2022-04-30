@@ -26,7 +26,6 @@ pickleshare==0.7.5
 prompt-toolkit==3.0.29
 psutil==5.9.0
 pure-eval==0.2.2
-Pygments==2.11.2
 pywin32==303
 pyzmq==22.3.0
 six==1.16.0
